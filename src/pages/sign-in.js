@@ -21,7 +21,7 @@ class SignIn extends React.Component {
               <div className="text-center">
                  <h2>Sign In</h2>
                  <img src="assets/images/title-line.png" alt="title-line" className="img-fluid line"/>
-                    <p>Welcome To chatloop, Please Sign in With Your Personal Account Information.</p>
+                    <p>Welcome To Where2?, Please Sign in With Your Personal Account Information.</p>
               </div>
               <div className="main">
                  <form className="auth-form">
