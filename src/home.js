@@ -24,7 +24,7 @@ class Home extends React.Component {
 								<a className="nav-link" href="#home" >Home</a>
 							</li>
 							<li className="nav-item">
-								<a className="nav-link" href="#about" >Abou</a>
+								<a className="nav-link" href="#about" >About</a>
 							</li>
 							<li className="nav-item">
 								<a className="nav-link" href="#feature" >Feature</a>
