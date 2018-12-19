@@ -16,7 +16,7 @@ class Contact extends React.Component {
                        <div className="form-group">
                           <label htmlFor="exampleInputName1">Name</label>
                           <i className="fa fa-user"></i>
-                          <input required="" name="login[username]" type="email" className="form-control" id="exampleInputName1" placeholder="User name"/>
+                          <input required="" name="login[username]" type="email" className="form-control" id="exampleInputName1" placeholder="Name"/>
                        </div>
                        <div className="form-group">
                           <label htmlFor="exampleInputEmail12">Email</label>
