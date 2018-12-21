@@ -25,9 +25,6 @@ class Home extends React.Component {
 							<li className="nav-item">
 								<a className="nav-link" href="#feature" >Search Where2?</a>
 							</li>
-							{/* <li className="nav-item">
-								<a className="nav-link" href="#feature" >Feature</a>
-							</li> */}
 							<li className="nav-item">
 								<a className="nav-link" href="#team">team</a>
 							</li>
@@ -56,7 +53,7 @@ class Home extends React.Component {
 										<span className="main-title">Where2?</span>
 										<br/>The best way to decide where to eat
 										</h1>
-										<h4>Hungry? Trying to decide where to meet up with some friends, or just looking for a great spot to eat? Let us take the work out deciding. Here at Where2, we will make the decision on "where should we eat" for you -- because life is hard, eating shouldn't be. </h4>
+										<h4>Trying to decide where to meet up with friends, or just looking for a great spot to eat? Let us take the work out of deciding. Here at Where2?, we make the decision on "where should we eat?" for you -- because life is hard, eating shouldn't be. </h4>
 										<div className="slid-btn">
 											<a href=""><img src="assets/images/app1.png" alt="app1" className="img-fluid" data-tilt data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8"/></a>
 											<a href=""><img src="assets/images/app2.png" alt="app2" className="img-fluid" data-tilt data-tilt-perspective="50" data-tilt-speed="350" data-tilt-max="1.8"/></a>

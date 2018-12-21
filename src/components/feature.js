@@ -15,7 +15,7 @@ class Feature extends React.Component {
               <div className="row">
                  <div className="col-md-12 text-center">
                     <div className="section-title">
-                       <h2 className="text-white">MAIN SECTION FOR US</h2>
+                       <h2 className="text-white">Find your next meal</h2>
                        <img src="assets/images/white-line.png" alt="white-line" className="img-fluid"/>
                     </div>
                  </div>

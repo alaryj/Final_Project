@@ -28,6 +28,7 @@ class Footer extends React.Component {
                                     <li><a href={null}  dangerouslySetInnerHTML={{ __html: '<i class="fa fa-twitter" aria-hidden="true"></i>' }}></a></li>
                                     <li><a href={null}  dangerouslySetInnerHTML={{ __html: '<i class="fa fa-instagram" aria-hidden="true"></i>' }}></a></li>
                                     <li><a href={null} dangerouslySetInnerHTML={{ __html: '<i class="fa fa-rss" aria-hidden="true"></i>' }}></a></li>
+                                    <li><a href={null} dangerouslySetInnerHTML={{ __html: '<i class="fa fa-github" aria-hidden="true"></i>' }}></a></li>
                                 </ul>
                             </div>
                         </div>
