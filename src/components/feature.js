@@ -15,14 +15,15 @@ class Feature extends React.Component {
               <div className="row">
                  <div className="col-md-12 text-center">
                     <div className="section-title">
-                       <h2 className="text-white">MAIN SECTION FOR US</h2>
+                       <h2 className="text-white">Find your next meal</h2>
                        <img src="assets/images/white-line.png" alt="white-line" className="img-fluid"/>
                     </div>
                  </div>
                  <div className="col-lg-4 col-sm-6">
                     <div className="future-box">
                        <div className="future-timeline">
-                          <ul >
+                       API Call and results
+                          {/* <ul >
                              <li className="timeline">
                                 <h4 className="sub-title">Easy Installation</h4>
                                 <p className="">Lorem Ipsum has been the industry's</p>
@@ -39,17 +40,17 @@ class Feature extends React.Component {
                                 <h4 className="sub-title">Easy File Sharing</h4>
                                 <p className="">Lorem Ipsum has been the industry's</p>
                              </li>
-                          </ul>
+                          </ul> */}
                        </div>
                     </div>
                  </div>
-                 <div className="col-md-4 future-mobile">
+                 {/* <div className="col-md-4 future-mobile">
                     <img src="assets/images/feature-mob.png" alt="feature-mob" className="img-fluid"/>
-                 </div>
+                 </div> */}
                  <div className="col-lg-4 col-sm-6">
                     <div className="future-box">
                        <div className="future-timeline-right">
-                          <ul className="text-left">
+                          {/* <ul className="text-left">
                              <li className="timeline-right">
                                 <h4>Easy Installation</h4>
                                 <p className="">Lorem Ipsum has been the industry's</p>
@@ -66,7 +67,7 @@ class Feature extends React.Component {
                                 <h4>Easy File Sharing</h4>
                                 <p className="">Lorem Ipsum has been the industry's</p>
                              </li>
-                          </ul>
+                          </ul> */}
                        </div>
                     </div>
                  </div>
