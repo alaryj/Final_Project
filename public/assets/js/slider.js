@@ -1,25 +1,5 @@
 "use strict";
 $(document).ready(function(){
-/*-------------------------
- Testimonial
- ---------------------------*/
-    var testimonial = $(".testimonial-slider");
-    testimonial.owlCarousel({
-        loop:true,
-        margin:0,
-        nav:false,
-        dots:true,
-        items:1
-    });
-    var testimonial = $(".testimonial-slider-rtl");
-    testimonial.owlCarousel({
-        rtl:true,
-        loop:true,
-        margin:0,
-        nav:false,
-        dots:true,
-        items:1
-    });
 /*--------------------------
  Plan Slider
  ----------------------------*/
@@ -169,11 +149,6 @@ $(document).ready(function(){
             }
         }
     });
-/*--------------------------
- testimonial slider
- ----------------------------*/
-    var testimonial = $(".testimonial-slider");
-    testimonial.owlCarousel({});
 
 /*------------------------
  News slider
