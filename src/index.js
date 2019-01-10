@@ -21,7 +21,7 @@ class Root extends React.Component {
   	return(
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
-			  <Route path={`${process.env.PUBLIC_URL}/home`} component={Home}/>
+			  <Route path={`${process.env.PUBLIC_URL}/`} component={Home}/>
 			  <Route path={`${process.env.PUBLIC_URL}/sign-in`} component={SignIn}/>
 			  <Route path={`${process.env.PUBLIC_URL}/sign-up`} component={SignUp}/>
 			  <Route path={`${process.env.PUBLIC_URL}/forget-password`} component={ForgetPassword}/>
