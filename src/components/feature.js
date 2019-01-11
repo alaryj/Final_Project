@@ -13,61 +13,37 @@ class Feature extends React.Component {
                  <i></i>
               </div>
               <div className="row">
+              
+              {/* TITLE */}
                  <div className="col-md-12 text-center">
                     <div className="section-title">
                        <h2 className="text-white">Find your next meal</h2>
                        <img src="assets/images/white-line.png" alt="white-line" className="img-fluid"/>
                     </div>
                  </div>
-                 <div className="col-lg-4 col-sm-6">
+
+               {/* LEFT SIDE API CALL */}
+                 <div className="col-lg-6 col-sm-6">
                     <div className="future-box">
                        <div className="future-timeline">
                        API Call and results
-                          {/* <ul >
-                             <li className="timeline">
-                                <h4 className="sub-title">Easy Installation</h4>
-                                <p className="">Lorem Ipsum has been the industry's</p>
-                             </li>
-                             <li className="timeline">
-                                <h4 className="sub-title">Multi Platform Chat App</h4>
-                                <p className="">Lorem Ipsum has been the industry's</p>
-                             </li>
-                             <li className="timeline">
-                                <h4 className="sub-title">Secure Backup & Recovery</h4>
-                                <p className="">Many desktop publishing packages</p>
-                             </li>
-                             <li className="timeline">
-                                <h4 className="sub-title">Easy File Sharing</h4>
-                                <p className="">Lorem Ipsum has been the industry's</p>
-                             </li>
-                          </ul> */}
+                        <form>
+                           <div className="form-row">
+                              <div className="form-group col-md-6">
+                                 <label for="inputZip"><h2>Enter your zip code</h2></label>
+                                 <input type="text" className="form-control" id="inputZip"></input>
+                              </div>
+                           </div>
+                        </form>
                        </div>
                     </div>
                  </div>
-                 {/* <div className="col-md-4 future-mobile">
-                    <img src="assets/images/feature-mob.png" alt="feature-mob" className="img-fluid"/>
-                 </div> */}
-                 <div className="col-lg-4 col-sm-6">
+
+                 {/* RIGHT/RESULTS SIDE */}
+                 <div className="col-lg-6 col-sm-6">
                     <div className="future-box">
                        <div className="future-timeline-right">
-                          {/* <ul className="text-left">
-                             <li className="timeline-right">
-                                <h4>Easy Installation</h4>
-                                <p className="">Lorem Ipsum has been the industry's</p>
-                             </li>
-                             <li className="timeline-right">
-                                <h4>Multi Platform Chat App</h4>
-                                <p className="">Lorem Ipsum has been the industry's</p>
-                             </li>
-                             <li className="timeline-right">
-                                <h4>Secure Backup & Recovery</h4>
-                                <p className="">Many desktop publishing packages</p>
-                             </li>
-                             <li className="timeline-right">
-                                <h4>Easy File Sharing</h4>
-                                <p className="">Lorem Ipsum has been the industry's</p>
-                             </li>
-                          </ul> */}
+                           RESULTS GO HERE
                        </div>
                     </div>
                  </div>
