@@ -41,12 +41,9 @@ class Team extends React.Component {
 
     // Dynamic Team Members Easy to Update
     let data = [
-        {name: 'mark jkcno', designation:'designer', photo:'1.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'john doe', designation:'devloper', photo:'4.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'johanson let', designation:'ux designer', photo:'3.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'Walo Boni', designation:'app devloper', photo:'2.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'John Shipmen', designation:'app designer', photo:'4.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
-        {name: 'Robert Tomkins', designation:'ceo', photo:'3.jpg', facebook:'#', google:'#', twitter:'#', instagram:'#', rss:'#'},
+        {name: 'Jamie Alary', designation:'Designer', photo:'1.jpg', linkedin:'https://www.linkedin.com/in/james-alary/', github:'https://github.com/alaryj'},
+        {name: 'Maria Gomez', designation:'Designer', photo:'2.jpg', linkedin:'https://www.linkedin.com/in/maria-gomez-25b90b127/', github:'https://github.com/mgomez15'},
+        {name: 'Zach Adriaens', designation:'Designer', photo:'3.jpg', linkedin:'https://www.linkedin.com/in/zacharyadriaens/', github:'https://github.com/zadriaens'},
         ];
 
     // Dynamic Team Members Data Loop
@@ -62,11 +59,8 @@ class Team extends React.Component {
                         <div className="team-overlay">
                             <div className="social-icon">
                                 <ul >
-                                  <li><a href={val.facebook} dangerouslySetInnerHTML={{ __html: '<i class="fa fa-facebook" aria-hidden="true"></i>' }}></a></li>
-                                  <li><a href={val.google} dangerouslySetInnerHTML={{ __html: '<i class="fa fa-google-plus" aria-hidden="true"></i>' }}></a></li>
-                                  <li><a href={val.twitter}  dangerouslySetInnerHTML={{ __html: '<i class="fa fa-twitter" aria-hidden="true"></i>' }}></a></li>
-                                  <li><a href={val.instagram}  dangerouslySetInnerHTML={{ __html: '<i class="fa fa-instagram" aria-hidden="true"></i>' }}></a></li>
-                                  <li><a href={val.rss}  dangerouslySetInnerHTML={{ __html: '<i class="fa fa-rss" aria-hidden="true"></i>' }}></a></li>
+                                  <li><a href={val.linkedin} target="_blank" dangerouslySetInnerHTML={{ __html: '<i class="fa fa-linkedin" aria-hidden="true"></i>' }}></a></li>
+                                  <li><a href={val.github} target="_blank" dangerouslySetInnerHTML={{ __html: '<i class="fa fa-github" aria-hidden="true"></i>' }}></a></li>
                                 </ul>
                             </div>
                         </div>
