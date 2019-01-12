@@ -1,7 +1,29 @@
 import React from 'react';
-
+import axios from 'axios';
 
 class Feature extends React.Component {
+   constructor(props) {
+      super(props)
+      this.handleZipClick=this.handleZipClick.bind(this)
+   }
+   handleZipClick(event) {
+      event.preventDefault()
+      const cityBox=document.getElementById("inputZip")
+      const city=cityBox.value.trim()
+      var queryURL="https://api.yelp.com/v3/businesses/search?location=" +city+ "&categories=restaurants,all"
+      console.log(queryURL);
+      var APIkey="bdxKjR7q5yPBHwPNcwezseUiBn5JCzzUTdUphmzssOrwUnHAtn2yZIvRUyCA2GTMCDfpVBuo8bXcajx8G0LGtCcI-q2cb9wyPLmk3xoRLxcRYHCYog6ooh986dg3XHYx";
+      var headers={"Authorization":"Bearer "+APIkey}
+      axios.get(queryURL,{headers})
+      .then(function(results){
+         var restaurants=results.data
+         console.log(restaurants)
+      })
+      .catch(function(error){
+         // to do: handle the error
+         console.log(error)
+      })
+   }
   render() {
 		
   	return (
@@ -26,12 +48,13 @@ class Feature extends React.Component {
                  <div className="col-lg-6 col-sm-6">
                     <div className="future-box">
                        <div className="future-timeline">
-                       API Call and results
                         <form>
                            <div className="form-row">
-                              <div className="form-group col-md-6">
-                                 <label for="inputZip"><h2>Enter your zip code</h2></label>
-                                 <input type="text" className="form-control" id="inputZip"></input>
+                              <div className="form-group col-md-12">
+                                 <div className="zipCode col-md-6">
+                                    <input type="text" className="form-control" id="inputZip" placeholder="Enter Your Zip Code"></input>
+                                    <button onClick={this.handleZipClick} type="submit">Submit</button>
+                                 </div>       
                               </div>
                            </div>
                         </form>
