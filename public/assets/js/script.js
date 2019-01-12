@@ -86,16 +86,16 @@ $(document).ready(function(){
     });
     $('.team-hover').hide();
 
-    $(".team-under-box-button").on('click', function(event){
-        $('.team-box').hide(1000);
-        $('.team-hover').show(1000);
-        $('.team-hover').fadeIn("slow");
-    });
-    $(".team-close-btn").on('click', function(event){
-        $(".team-hover").hide(1000);
-        $('.team-box').show(1000);
-        $('.team-box').fadeIn("slow");
-    });
+    // $(".team-under-box-button").on('click', function(event){
+    //     $('.team-box').hide(1000);
+    //     $('.team-hover').show(1000);
+    //     $('.team-hover').fadeIn("slow");
+    // });
+    // $(".team-close-btn").on('click', function(event){
+    //     $(".team-hover").hide(1000);
+    //     $('.team-box').show(1000);
+    //     $('.team-box').fadeIn("slow");
+    // });
 
     
     $("#mymenu li a").on('click', function(event){
