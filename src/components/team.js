@@ -81,7 +81,7 @@ class Team extends React.Component {
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <div className="section-title">
-                            <h2>Our Work Place</h2>
+                            <h2>Meet Our Team</h2>
                             <img src="assets/images/title-line.png" alt="title-line" className="img-fluid"/>
                         </div>
                     </div>
