@@ -41,10 +41,10 @@ class Team extends React.Component {
 
     // Dynamic Team Members Easy to Update
     let data = [
-        {name: 'Jamie Alary', designation:'Designer', photo:'1.jpg', linkedin:'https://www.linkedin.com/in/james-alary/', github:'https://github.com/alaryj'},
-        {name: 'Maria Gomez', designation:'Designer', photo:'2.jpg', linkedin:'https://www.linkedin.com/in/maria-gomez-25b90b127/', github:'https://github.com/mgomez15'},
-        {name: 'Zach Adriaens', designation:'Designer', photo:'3.jpg', linkedin:'https://www.linkedin.com/in/zacharyadriaens/', github:'https://github.com/zadriaens'},
-        ];
+        {name: 'Jamie Alary', designation:'Designer', photo:'1.jpg', linkedin:'https://www.linkedin.com/in/james-alary/', github:'https://github.com/alaryj', skills:'A guru of many, but master of none', bio:"My life all started north of the Toronto area in Ontario, Canada. As a young Canadian living on the frozen tundra, I quickly learned how to wrestle polar bears and seals, and I learned how to build igloos. My family moved to the U.S. while I was still young and settled in the Denver area. Since moving to Colorado, I have been able to travel the country hockey referee, working in minor pro and college leagues."},
+        {name: 'Maria Gomez', designation:'Designer', photo:'2.jpg', linkedin:'https://www.linkedin.com/in/maria-gomez-25b90b127/', github:'https://github.com/mgomez15', skills:'In progress...', bio:'Maria is so cool'},
+        {name: 'Zach Adriaens', designation:'Designer', photo:'3.jpg', linkedin:'https://www.linkedin.com/in/zacharyadriaens/', github:'https://github.com/zadriaens', skills:'Big game hunting', bio:"I was Born and raised in the Mile High City. I graduated from Northglenn High school in 2004, and attended Colorado State University, getting my BA in Communications studies in 2009. I'm an avid Bigfoot hunter, and enjoy big game hunting on the Serengeti during my down time. When I'm not tackling big projects out in the bush, I enjoy spending my time with my girlfriend and friends. I also enjoy watching movies, playing video games and reading comic books. I am currently attending coding boot-camp at the University of Denver. I hope to one day learn all there is to know about fullstack, so I can bring the world to it's knees in my never-ending attempt to take over humanity."},
+    ];
 
     // Dynamic Team Members Data Loop
     let DataList = data.map((val, i) => {
@@ -114,8 +114,8 @@ class Team extends React.Component {
                                                     </div>
                                                     <h3>{value.name}</h3>
                                                     <h4 className="m-0 text-muted">{value.designation}</h4>
-                                                    <h5>PHP, Laravel, Cake , Wordpress, HTML5 </h5>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,</p>
+                                                    <h5 className="m-1">{value.skills}</h5>
+                                                    <p className="m-2">{value.bio}</p>
                                                 </div>
                                             </div>
                                         </div>
