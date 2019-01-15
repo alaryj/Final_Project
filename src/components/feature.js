@@ -4,16 +4,16 @@ import axios from 'axios';
 class Feature extends React.Component {
    constructor(props) {
       super(props)
-      this.handleZipClick=this.handleZipClick.bind(this)
+      this.handleCityClick=this.handleCityClick.bind(this)
    }
-   handleZipClick(event) {
+   handleCityClick(event) {
       event.preventDefault()
-      const cityBox=document.getElementById("inputZip")
+      const cityBox=document.getElementById("inputCity")
       const city=cityBox.value.trim()
-      var queryURL="https://api.yelp.com/v3/businesses/search?location=" +city+ "&categories=restaurants,all"
+      var queryURL="http://api.yelp.com/v3/businesses/search?location=" +city+ "&categories=restaurants,all"
       console.log(queryURL);
       var APIkey="bdxKjR7q5yPBHwPNcwezseUiBn5JCzzUTdUphmzssOrwUnHAtn2yZIvRUyCA2GTMCDfpVBuo8bXcajx8G0LGtCcI-q2cb9wyPLmk3xoRLxcRYHCYog6ooh986dg3XHYx";
-      var headers={"Authorization":"Bearer "+APIkey}
+      var headers={"Authorization":"Bearer "+APIkey, "access-control-allow-origin" : "*"}
       axios.get(queryURL,{headers})
       .then(function(results){
          var restaurants=results.data
@@ -51,9 +51,9 @@ class Feature extends React.Component {
                         <form>
                            <div className="form-row">
                               <div className="form-group col-md-12">
-                                 <div className="zipCode col-md-6">
-                                    <input type="text" className="form-control" id="inputZip" placeholder="Enter Your Zip Code"></input>
-                                    <button onClick={this.handleZipClick} type="submit">Submit</button>
+                                 <div className="city col-md-6">
+                                    <input type="text" className="form-control" id="inputCity" placeholder="Enter Your City"></input>
+                                    <button onClick={this.handleCityClick} type="submit">Submit</button>
                                  </div>       
                               </div>
                            </div>
