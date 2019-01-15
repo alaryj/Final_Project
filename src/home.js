@@ -64,33 +64,15 @@ class Home extends React.Component {
 						</div>
 						<div className="col-md-6">
 							<div className="home-right">Place holder for Login
-								{/* <div className="mobile-slid">
-									<img src="assets/images/top-mobile.png" alt="top1" className="img-fluid"/>
-								</div>
-								<div className="profile-msg">
-									<img src="assets/images/top2.png" alt="top2" className="img-fluid" />
-								</div>
-								<div className="awesome">
-									<img src="assets/images/top3.png" alt="top3" className="img-fluid"/>
-								</div>
-								<div className="profile-1">
-									<img src="assets/images/top4.png" alt="top4" className="img-fluid"/>
-								</div>
-								<div className="emoji">
-									<img src="assets/images/top5.png" alt="top5" className="img-fluid"/>
-								</div>
-								<div className="profile-2">
-									<img src="assets/images/top1.png" alt="top1" className="img-fluid"/>
-								</div> */}
+								{
+									// insert login section here
+								}
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
   			{/* Home One Section End */}
-
-			{/* About Component*/}
-			{/* <About /> */}
 
 			{/*Feature Component*/}
 			<Feature />
