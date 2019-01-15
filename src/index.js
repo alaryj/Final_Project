@@ -11,7 +11,6 @@ class Root extends React.Component {
   		<BrowserRouter basename={'/'} >
 		  	<Switch>
 			  <Route path={`${process.env.PUBLIC_URL}/`} component={Home}/>
-			  <Route path={`${process.env.PUBLIC_URL}/request`} component={Request}/>
 			</Switch>
 		</BrowserRouter>
   	);
