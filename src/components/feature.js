@@ -51,7 +51,7 @@ class Feature extends React.Component {
                         <form>
                            <div className="form-row">
                               <div className="form-group col-md-12">
-                                 <div className="city-text">Where Would You Like To Eat Tonight?</div>
+                                 <div className="city-text">where do you want to eat?</div>
                                  <div className="city col-md-6">
                                     <input type="text" className="form-control" id="inputCity" placeholder="Enter Your City"></input>
                                     <button onClick={this.handleCityClick} className="submit-button" type="submit">Submit</button>
