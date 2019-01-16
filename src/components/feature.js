@@ -51,9 +51,10 @@ class Feature extends React.Component {
                         <form>
                            <div className="form-row">
                               <div className="form-group col-md-12">
+                                 <div className="city-text">Where Would You Like To Eat Tonight?</div>
                                  <div className="city col-md-6">
                                     <input type="text" className="form-control" id="inputCity" placeholder="Enter Your City"></input>
-                                    <button onClick={this.handleCityClick} type="submit">Submit</button>
+                                    <button onClick={this.handleCityClick} className="submit-button" type="submit">Submit</button>
                                  </div>       
                               </div>
                            </div>
@@ -62,11 +63,12 @@ class Feature extends React.Component {
                     </div>
                  </div>
 
-                 {/* RIGHT/RESULTS SIDE */}
+                 {/* RIGHT/RESULTS SIDE WHERE API CALL WILL APPEAR */}
                  <div className="col-lg-6 col-sm-6">
                     <div className="future-box">
                        <div className="future-timeline-right">
-                           RESULTS GO HERE
+                       {/* PLACE HOLDER FOR API CALL */}
+                       <img src="assets/images/placeholder.jpg" alt="placeholder" className="place-holder"/>
                        </div>
                     </div>
                  </div>
