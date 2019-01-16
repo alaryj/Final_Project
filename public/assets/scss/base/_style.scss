@@ -726,15 +726,18 @@ section {
 
 .place-holder {
     float: right;
+    width: 90%;
+    border: 5px solid;
 }
 
 .city-text {
-    font-size: 24px;
+    font-size: 35px;
     padding-bottom: 18px;
     display: block;
     text-transform: uppercase;
     color: white;
     font-weight: 800;
+    text-align: center;
 }
 
 #inputCity {
