@@ -1,12 +1,3 @@
-/*-----------------------------------------------------------------------------------
-
- Template Name:Chatloop APP
- Template URI: themes.pixelstrap.com/chatloop
- Description: This is App Landing Page
- Author: Pixelstrap
- Author URI: https://themeforest.net/user/pixelstrap
-
- -----------------------------------------------------------------------------------*/
 "use strict";
 $(document).ready(function(){
 
