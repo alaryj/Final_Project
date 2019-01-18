@@ -1,18 +1,31 @@
+# Final_Project
+
 # Where2?
 
-Trying to decide where to meet up with friends, or just looking for a great spot to eat? Let us take the work out of deciding. Here at Where2?, we make the decision on "where should we eat?" for you -- because life is hard, eating shouldn't be.
+A app built to help find places to eat or meet up with friends for drinks. Pulls from the Yelp api according to your city.
 
-## Usage
+The best way to decide where to eat. Trying to decide where to meet up with friends, or just looking for a great spot to eat? Let us take the work out of deciding. Here at Where2?, we make the decision on "where should we eat?" for you -- because life is hard, eating shouldn't be.
 
-```python
-import foobar
+Created as the final group project for the Denver University Coding Bootcamp.
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+## Link
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+## Built With
+
+* [React] (https://reactjs.org/)
+* [Sass] (https://sass-lang.com/)
+* [Heroku](https://www.heroku.com/)
+* [Owl Carousel](https://nodejs.org/en/about/)
+* [NPM](https://www.npmjs.com/)
+* [Bootstrap] (https://getbootstrap.com/)
+* [Sequelize] (http://docs.sequelizejs.com/)
+* [mySQL] (https://www.mysql.com/)
+* [Axios] (https://www.npmjs.com/package/axios)
+
+
+# Authors
+
+* **Jamie Alary** - [Github](https://github.com/alaryj)
+* **Maria Gomez** - [Github](https://github.com/mgomez15)
+* **Zach Adriaens** - [Github](https://github.com/zadriaens)
