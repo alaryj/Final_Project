@@ -63,10 +63,8 @@ class Home extends React.Component {
 							</div>
 						</div>
 						<div className="col-md-6">
-							<div className="home-right">Place holder for Login
-								{
-									// insert login section here
-								}
+							<div className="home-right">
+								<img src="assets/images/login.jpg" alt="login" className="place-holder"/>
 							</div>
 						</div>
 					</div>
