@@ -25,9 +25,9 @@ Created as the final group project for the Denver University Coding Bootcamp.
 
 ## Work Still In Progress
 
-![where2 img](/assets/images/postman.png)
+![Screenshot](./public/assets/images/postman.png)
 -API works in Postman -- On deployment getting a 'CORS' error. 
-![where2 img](/assets/images/okta.png)
+![Screenshot](./public/assets/images/okta.png)
 -Integration of authentication through their database. 
 
 # Authors
